@@ -72,7 +72,9 @@ elif  question == 5 :
 
 
 else:
-    print("Ooops!!This is not part of the given options to select from.Try again..")
+    print("Ooops!!This i s not part of the given options to select from.Try again..")
+
+
 
 
 
