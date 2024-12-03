@@ -47,9 +47,9 @@
 #     x=x-2
 
 #CORRECTION
-for i in range(1000,0):
-     if(1 %2 ==1):
-          print(i)
+#for i in range(1000,0):
+#     if(1 %2 ==1):
+#          print(i)
 
 
           
