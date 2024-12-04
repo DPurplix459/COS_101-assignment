@@ -42,9 +42,13 @@ for number in numbers:
 #write a for loop to print the numbers in revers..
 #Index and
 
-#Assignment...
-#reverse=0
-#for number in numbers:
- #   reverse = reverse - number
-#    print(reverse)
+#Assignment..
+
+reversed_number = []
+for i in range(len(numbers) -1, -1, -1):
+    reversed_number.append(numbers[i])
+
+
+    print(reversed_number)
+
 
