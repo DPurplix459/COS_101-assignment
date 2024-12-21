@@ -8,13 +8,13 @@ window.geometry("800x400")
 window.title("Japanese Dictionary.")
 
 
-entry_text = Entry(window)
+entry_text=Entry(window)
 
 entry_text.pack()
 
 
 result = StringVar()
-result_label = Label(window,textvariable=result)
+result_label=Label(window,textvariable=result)
 result_label.pack()
 
 
@@ -59,6 +59,8 @@ def search_word(word):
         result.set("Not found")
         print("Not Found.")
 
+
+from creating_desktop_app import search
 
 search_btn = Button(window, text='Search', command=lambda:search(entry_text.get()))
 search_btn.pack()
